@@ -12,8 +12,8 @@ import {
 @Injectable()
 export class EmailTemplateService {
   private readonly defaultContactInfo: ContactInfo = {
-    email: "info@pacam.com",
-    phone: "+234-XXX-XXXX",
+    email: "info@pacassetmanagement.com",
+    phone: "+234 811 111 1006",
     website: "www.pacam.com",
   };
 
