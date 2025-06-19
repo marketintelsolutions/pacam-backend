@@ -31,7 +31,10 @@ async function bootstrap() {
 
   // CORS configuration
   app.enableCors({
-    origin: configService.get("CORS_ORIGIN", "http://localhost:3000"),
+    origin: configService.get(
+      "CORS_ORIGIN",
+      "https://www.pacassetmanagement.com"
+    ),
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "X-API-Key"],
