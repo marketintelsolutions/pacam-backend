@@ -36,7 +36,7 @@ export class EmailIndemnityController {
         );
       }
 
-      // Validate form data
+      // Validate the form data
       const validation = this.emailIndemnityService.validateEmailIndemnityData(
         request.formData
       );
