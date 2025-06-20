@@ -40,7 +40,7 @@ async function bootstrap() {
     allowedHeaders: ["Content-Type", "Authorization", "X-API-Key"],
   });
 
-  // Global prefix
+  // Global prefix//
   app.setGlobalPrefix("api");
 
   const port = configService.get("PORT", 3001);
