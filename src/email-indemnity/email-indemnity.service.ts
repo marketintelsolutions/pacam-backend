@@ -421,7 +421,7 @@ export class EmailIndemnityService {
             <div class="footer-content">
                 <div class="contact-info">
                     <strong>${brandName} Customer Service</strong><br>
-                    Email: info@pacam.com | Phone: +234-XXX-XXXX<br>
+                    Email: info@pacassetmanagement.com | Phone: +234 811 111 1006<br>
                     Website: www.pacam.com
                 </div>
             </div>
@@ -533,7 +533,7 @@ export class EmailIndemnityService {
         <div class="footer">
             <div>
                 <strong>PACAM Customer Service</strong><br>
-                Email: info@pacam.com | Phone: +234-XXX-XXXX
+                Email: info@pacassetmanagement.com | Phone: +234 811 111 1006
             </div>
         </div>
     </div>
