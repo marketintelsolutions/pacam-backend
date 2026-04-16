@@ -15,6 +15,7 @@ import { EquityFundModule } from './equity-fund/equity-fund.module';
 import { EurobondFundModule } from './eurobond-fund/eurobond-fund.module';
 import { MoneyMarketFundModule } from './money-market-fund/money-market-fund.module';
 import { FixedIncomeFundModule } from './fixed-income-fund/fixed-income-fund.module';
+import { ContactModule } from './contact/contact.module';
 
 @Module({
   imports: [
@@ -30,6 +31,7 @@ import { FixedIncomeFundModule } from './fixed-income-fund/fixed-income-fund.mod
     EurobondFundModule,
     MoneyMarketFundModule,
     FixedIncomeFundModule,
+    ContactModule,
   ],
   controllers: [AppController, EmailIndemnityController],
   providers: [AppService, EmailIndemnityService, EmailTemplateService],
